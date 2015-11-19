@@ -1,0 +1,6 @@
+# placed in /etc/cron.d
+# TEST_ENV is an docker environment variable that the script test.py need
+
+TEST_ENV=XXXXXXX
+#
+* * * * * root python /test.py >> /var/log/test.log
