@@ -7,7 +7,7 @@ You can run it using
 
     $ docker build -t cron-example .
 
-    $ docker run -v /path/to/cron_docker/logs:/var/log cron
+    $ docker run -v /path/to/cron_docker/logs:/var/log cron-example
 
 And check the logs.
 
